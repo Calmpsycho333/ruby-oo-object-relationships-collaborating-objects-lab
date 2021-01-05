@@ -26,9 +26,9 @@ end
     
     def 
         self.find_or_create_by_name(name)
-        
+        @name = name
       
-        #binding.pry 
+        binding.pry 
     end
 
 
