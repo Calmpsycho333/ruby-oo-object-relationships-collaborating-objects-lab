@@ -24,13 +24,24 @@ end
         song_one.artist = self
     end
     
+    def self.find
+        self.all.find do | | 
+            
+
+        end
+    
+    end
+
     def 
         self.find_or_create_by_name(name)
         @name = name
       
-        binding.pry 
+        #binding.pry 
     end
 
+    def print_songs
+        
+    end
 
 
  
