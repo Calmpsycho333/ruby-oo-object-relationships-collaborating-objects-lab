@@ -23,13 +23,16 @@ end
         @song_one = song_one
         song_one.artist = self
     end
-    
-    def self.find
-        self.all.find do | | 
-            
-
-        end
-    
+    #def self.find(someArtist)
+        #search through all the artists
+        # (using self and all) and 
+        #return the artist where artist.someValue == someArtist 
+        #end
+    def self.find(someartist)                            
+       someartist.artist
+       self.all << someartist
+       somewhere
+       # binding.pry
     end
 
     def 
